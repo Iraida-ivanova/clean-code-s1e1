@@ -31,7 +31,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -119,7 +119,7 @@ button {
   width: 226px;
 }
 .task-wrapper >    .task-edit {
-  width: 226px
+  width: 226px;
 }
 .btn-del-img {
   height: 2em;
@@ -139,12 +139,12 @@ button {
 
 /* Edit Task */
 .task-wrapper .task-edit {
-  display: none
+  display: none;
 }
 
 .task-wrapper.edit-mode .task-edit {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-wrapper.edit-mode .task-save {
