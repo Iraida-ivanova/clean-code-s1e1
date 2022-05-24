@@ -19,8 +19,9 @@
 }
 
 @media (max-width:768px) {
-.todo-img-wrapper { text-align: center;
-}
+  .todo-img-wrapper {
+    text-align: center;
+  }
 }
 .todo {
   display: block;
