@@ -4,25 +4,30 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.todo-img-wrapper {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.todo-img {
+.info-img {
   width: 100%;
   vertical-align: middle;
 }
-.todo-img-wrapper .link-to-info {
+.link-to-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .todo-img-wrapper {
+  .info {
     text-align: center;
   }
 }
+
+.add-task {
+  margin-top: 16px;
+}
+
 .todo {
   display: block;
   width: 500px;
@@ -35,6 +40,7 @@
 }
 .task-row-wrapper {
   display: flex;
+  padding: 20px 0 16px;
 }
 ul {
   margin: 0;
@@ -63,9 +69,6 @@ button {
   color: #3a3a3a;
 }
 /* Heading */
-.add-task {
-  margin-bottom: 20px;
-}
 .todo-subtitle {
   display: block;
   color: #333;
